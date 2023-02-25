@@ -1,0 +1,84 @@
+/* ----------------header---------------- */
+
+.header-list {
+  margin-left: 76px;
+}
+.contacts-list {
+  display: flex;
+}
+
+.contacts-mail,
+.contacts-tel {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* ---------------hero--------------- */
+
+.hero {
+  background-color: var(--dark-color);
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+.hero-bg {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero/hero-bg-desktop.jpg);
+  max-width: 1440px;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+}
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+    .hero-bg {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero/hero-bg-desktop-2x.jpg);
+  }
+}
+
+/* ---------------about--------------- */
+
+.about-item {
+  width: 264px;
+}
+
+.about-wrap {
+  display: flex;
+  width: 264px;
+  height: 112px;
+  background-color: var(--light-color);
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+}
+.about-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  margin-top: 8px;
+}
+.about-text {
+  font-weight: 400;
+}
+
+/* ----------------footer--------------- */
+.footer-flex {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-main-info {
+  margin-right: 120px;
+}
+
+
